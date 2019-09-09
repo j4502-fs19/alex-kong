@@ -10,7 +10,7 @@ font-family: 'Merriweather', serif;
 }
 h2{
   color: #B33333;
-font-family: 'Merriweather', serif;
+font-family:'Roboto', sans-serif;
 }
 
 h3{
@@ -61,4 +61,7 @@ body {
    font-family: Georgia, "Times New Roman", serif;
    font-size: 0.8em;
    border-top: 1px solid black;
+}
+img {
+	border: none;
 }
