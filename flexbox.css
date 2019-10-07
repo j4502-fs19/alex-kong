@@ -1,0 +1,21 @@
+#nav{
+  display:flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:600px)
+{
+  #nav{
+    flex-direction: row-reverse;
+    justify-content: center;
+
+  }
+}
+
+@media screen and (min-width:800px)
+{
+  #nav{
+   justify-content: flex-end;
+
+  }
+}

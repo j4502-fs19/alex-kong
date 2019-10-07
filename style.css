@@ -65,3 +65,10 @@ body {
 img {
 	border: none;
 }
+
+@media screen and (min-width:600px)
+{
+  #nav li{
+    border-right:1px solid #ccc;
+  }
+}
