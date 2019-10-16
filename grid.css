@@ -1,15 +1,20 @@
 .photos
 {
-  margin:0;
+  margin:0 -10px;
   padding:0;
   list-style: none;
   display:grid;
-  grid-template-columns:1fr 1fr 1fr 1fr
-  grid-gap:20px;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:repeat(3,100px;);
+  grid-gap:10px;
+align-content: space-between;
+justify-items:stretch;
+
   grid-template-areas:
-  "a a b"
-  ".d d "
-  "c e e"
+  "a a b b"
+  "c c c c"
+  "d d e e"
+  "f f e e"
 }
 .jiangnan1
 {
@@ -33,17 +38,16 @@
 }
 .jiangnan6
 {
-  grid-area:a;
+  grid-area:f;
 }
 .photos li{
-  background-color: black;
+  background-color: #f1b82d;
   border:1px solid#ccc;
-  margin: 0 10px 20px 10px;
+  margin: 10 10px 10px 10px;
   padding:10px;
   border-radius: 5px;
 
 }
-
 @media screen and (min-width:600px)
 {
   .jiangnan1
@@ -73,7 +77,7 @@
     grid-row:3;
   }
   .jiangnan6{
-    grid-column:3;
-    grid-row:1;
+    grid-column:1/4;
+    grid-row:4;
   }
 }
