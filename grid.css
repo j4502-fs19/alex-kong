@@ -1,11 +1,11 @@
-.picture
+.photos
 {
   margin:0;
   padding:0;
   list-style: none;
   display:grid;
-  grid-template-columns:auto;
-  grid-gap:300px;
+  grid-template-columns:1fr 1fr 1fr 1fr
+  grid-gap:20px;
   grid-template-areas:
   "a a b"
   ".d d "
@@ -36,7 +36,7 @@
   grid-area:a;
 }
 .photos li{
-  background-color: red;
+  background-color: black;
   border:1px solid#ccc;
   margin: 0 10px 20px 10px;
   padding:10px;
