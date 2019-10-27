@@ -8,13 +8,13 @@
   grid-template-rows:repeat(3,100px;);
   grid-gap:10px;
 align-content: space-between;
-justify-items:stretch;
+justify-items:end;
 
   grid-template-areas:
   "a a b b"
-  ". c c c"
+  "c c c c"
   "d d e e"
-  "f f e e"
+  "f f . ."
 }
 .jiangnan1
 {
@@ -61,7 +61,7 @@ justify-items:stretch;
   }
   .jiangnan3{
     grid-column:1;
-    grid-row:2/4;
+    grid-row:2/3;
   }
 }
 
