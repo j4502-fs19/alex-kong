@@ -1,73 +1,138 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<h xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+  <title>Alex KONG</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,400i,700,700i|Signika|Viga|Work+Sans:100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/navStyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
 
-  <title>Alex's wonderful webpage </title>
-  <meta http-equiv="content-type"content="text/html;charset=utf-8" />
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700|Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="flexbox.css"/>
-  <link rel="stylesheet" href="grid.css"/>
-  <link rel="stylesheet" href="navstyle.css">
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="menu.js" type="text/javascript"></script>
+    $(document).ready(function(){
+  $(".selected").click(function(){
+    $("#test1").text("Hello world!");
+  });
+});
+  </script>
 
 </head>
 
-    <body>
-      <header>
-      <h1>KONG</h1>
-  <nav>
-      <a class="menu-trigger" href="#">&#9776;</a>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="2page.html">About</a></li>
-      <li><a href="https://www.youtube.com/channel/UCjAbK3A8rDawYSepJtFBjRA?view_as=subscriber">youtube</a></li>
+<body>
 
-    </ul>
-  </nav>
-  </header>
-
-      <div id="container">
-    <ul id="nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="https://www.youtube.com/channel/UCjAbK3A8rDawYSepJtFBjRA?view_as=subscriber">youtube</a></li>
-    <li><a href="https://www.columbiamissourian.com">missourian</a></li>
-
-</ul>
-
-<h1>Alex Kong wonderful website.</h1>
-<h2>qkvw9@mail.missouri.edu.</h2>
-<h3> Photojournalism\ 2019</h3>
-
-<ul> <div class="photos">
+  <div class="topnav" id="myTopnav">
+    <label>AKong47</label>
+    <a href="index.html" class="selected">Home</a>
+    <a href="graphic.html">Graphic</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars" ></i>
+    </a>
+  </div>
 
 
-<li class="jiangnan1"><img src="jiangnan1.jpeg" alt "photo1" width="100%"/> </li>
-<li class="jiangnan2"><img src="jiangnan2.jpeg" alt "photo2" width="100%"/> </li>
-<li class="jiangnan3"><img src="jiangnan3.jpeg" alt "photo3" width="100%"/> </li>
-<li class="jiangnan4"><img src="jiangnan4.jpeg" alt "photo4" width="100%"/> </li>
-<li class="jiangnan5"><img src="jiangnan5.jpeg" alt "photo5" width="100%"/> </li>
-<li class="jiangnan6"><img src="jiangnan6.jpeg" alt "photo6" width="100%"/> </li>
+  <div class="container">
 
-</div>
+    <h1> Story </h1>
+    <div class="columbiaphoto">
 
-</ul>
+      <ul class="como">
 
-<p>Here is my <a href="oldindex.html"> old page</a>.</p>
-<p> <a href="mailto:qkvw9@mail.missouri.edu"><img src="xxman.jpg" alt="a man is smoking." width="300px"/> </a> </p>
-<p class="caption">smoking man.<p>
-    <p> I love coding
-    Hello world</p>
-    <p>What Is Coding?  Coding is the process of using a programming language to get a computer to behave how you want it to. Every line of code tells the computer to do something, and a document full of lines of code is called a script. Each script is designed to carry out a job.
-    </p>
+        <div class="comoleft"><li> <a href=gallery2.html><img src="img/photo1.jpeg" class="homeimages" width="400px" /></li>
+            <div class="middle">
+              <div class="text">CoMO shadow</div>
+              <div class="text">Photographer: Qinghui Kong</div>
+                    </div>
+                  </a></div>
 
-<p id="footer">Content copyright &copy; 2019 Qinghui Kong.</p>
+        <div class="comoright1"><li><a href=gallery2.html><img src="img/photo2.jpeg" class="homeimages" width="400px"/></li>
+          <div class="middle">
+            <div class="text">Man</div>
+            <div class="text">Photographer: Qinghui Kong</div>
+                  </div>
+                </a></div>
+        <div class="comoright2"><li><a href=gallery2.html><img src="img/photo3.jpeg" class="homeimages" width="400px" /></li>
+          <div class="middle">
+            <div class="text">B305</div>
+            <div class="text">Photographer: Qinghui Kong</div>
+                  </div>
+                </a></div>
 
-</div>
-</body>
+    </ul></div>
 
-</html>
+<!--
+
+
+    <div class="ad">
+      <div class="advertise">Here is for advertisement.Here is for advertisement.Here is for advertisement.Here is for
+        advertisement.</div>
+    </div>
+
+ -->
+
+<h1> Photos </h1>
+<div class="photopackage">
+
+      <div class="photopackage1">
+          <a href="gallery.html"> <img src="img/mutty1.jpg" class="homeimages" width="300px" height="400px" />
+          <div class="middle">
+            <div class="text">Mutty</div>
+            <div class="text">Photographer: Qinghui Kong</div>
+                  </div>
+                </a></div>
+
+      <div class="photopackage2">
+          <a href=gallery.html><img src="img/mutty2.jpg" class="homeimages" width="300px" height="400px"  />
+          <div class="middle">
+          <div class="text">Lemogun </div>
+          <div class="text">Photographer: Qinghui Kong</div>
+                </div>
+              </a></div>
+
+      <div class="photopackage3">
+      <a href=gallery.html><img src="img/mutty3.jpg" class="homeimages" width="300px" height="400px" />
+      <div class="middle">
+      <div class="text"> LIFe goes on</div>
+      <div class="text"> Photographer: Qinghui Kong</div>
+            </div>
+      </a></div>
+
+    </div>
+
+
+
+
+    <div class="botnav">
+      <div class="botcolumn">
+        <h3>Sections</h3>
+        <hr>
+        <!-- <p><a href="index.html">Homepage</a></p> -->
+        <p><a href="index.html">Home</a></p>
+        <p><a href="graphic.html">Grahic</a></p>
+        <p><a href="about.html">About</a></p>
+      </div>
+
+    </div>
+    <div id="footer">
+
+    <div class="footertext">
+      <p> Copyright &copy; 2019 <a href="columbiamissourian.com">Qinghui Kong</a>
+    </div>
+
+
+      </div>
+
+    </body>
+
+    </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Alex Kong</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,400i,700,700i|Signika|Viga|Work+Sans:100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/navStyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+    $(document).ready(function(){
+  $(".selected").click(function(){
+    $("#test1").text("Hello world!");
+  });
+});
+  </script>
+
+</head>
+
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <label>Gallery</label>
+    <a href="index.html" class="selected">Home</a>
+    <a href="graphic.html">Graphic</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars" ></i>
+    </a>
+  </div>
+
+
+  <div class="container">
+<h1> Rap:How lif it is  </h1>
+<ul> <div class="photos">
+
+
+<li class="jiangnan1"><img src="img/jeff1.jpg" alt "photo1" width="100%"/> </li>
+<li class="jiangnan2"><img src="img/jeff2.jpg" alt "photo2" width="100%"/> </li>
+<li class="jiangnan3"><img src="img/jeff3.jpg" alt "photo3" width="100%"/> </li>
+<li class="jiangnan4"><img src="img/jeff4.jpg" alt "photo4" width="100%"/> </li>
+<li class="jiangnan5"><img src="img/jeff5.jpg" alt "photo5" width="100%"/> </li>
+<li class="jiangnan6"><img src="img/jeff6.jpg" alt "photo6" width="100%"/> </li>
+
+</div>
+
+</ul>
+
+
+
+
+
+    </div>
+
+
+
+
+    <div class="botnav">
+      <div class="botcolumn">
+        <h3>Sections</h3>
+        <hr>
+        <!-- <p><a href="index.html">Homepage</a></p> -->
+        <p><a href="index.html">Home</a></p>
+        <p><a href="graphic.html">Grahic</a></p>
+        <p><a href="about.html">About</a></p>
+      </div>
+
+    </div>
+    <div id="footer">
+
+    <div class="footertext">
+      <p> Copyright &copy; 2019 <a href="columbiamissourian.com">Qinghui Kong</a>
+    </div>
+
+
+      </div>
+
+    </body>
+
+    </html>
